@@ -2,7 +2,7 @@
 ARG DOCKER_REGISTRY
 ARG ARCH="amd64"
 ARG MAJOR=daffy
-ARG BASE_TAG=${MAJOR}-${ARCH}
+ARG BASE_TAG=${MAJOR}
 FROM ${DOCKER_REGISTRY}/duckietown/dt-machine-learning-base-environment:${BASE_TAG}
 
 # DO NOT MODIFY: your submission won't run if you do
